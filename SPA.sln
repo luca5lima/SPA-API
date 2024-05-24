@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA.Api", "SPA.Api\SPA.Api.csproj", "{A7FFC9A6-C3B7-44B0-9DA1-7661114B9E47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7FFC9A6-C3B7-44B0-9DA1-7661114B9E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FFC9A6-C3B7-44B0-9DA1-7661114B9E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FFC9A6-C3B7-44B0-9DA1-7661114B9E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FFC9A6-C3B7-44B0-9DA1-7661114B9E47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14EEDA2A-B9DC-4B77-A1A3-559B9D68761B}
+	EndGlobalSection
+EndGlobal
