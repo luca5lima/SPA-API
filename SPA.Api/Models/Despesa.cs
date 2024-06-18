@@ -15,4 +15,5 @@ namespace SPA.Api.Models
             Description = string.Empty;
         }
     }
+
 }

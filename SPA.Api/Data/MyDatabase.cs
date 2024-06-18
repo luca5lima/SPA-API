@@ -10,6 +10,17 @@ namespace SPA.Api.Data
             optionsBuilder.UseInMemoryDatabase(databaseName: "SPAdb");
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Despesa>(despesa =>
+            {
+                despesa.HasKey(x => x.Id);
+                despesa.Property(d => d.Description).IsRequired();
+                despesa.Property(d => d.Value).IsRequired();
+            });
+        }
+
         public DbSet<Despesa> Despesas { get; set; }
+
     }
 }
